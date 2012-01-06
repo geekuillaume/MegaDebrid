@@ -10,25 +10,25 @@ De plus un lecteur DivX est integré pour voir les vidéos en streaming.
 
 ### Pour commencer :
 
-Définir les variables système :
----
+## Définir les variables système :
+
 
 	- application/config/config.php	-> Remplir l'adresse URL
 	- application/config/database.php	-> Remplir les infos de la base de données
 
-Créer la base de données :
----
+## Créer la base de données :
+
 	
 	- Créer une base de données nommée "liens"
 	- Créer une base de données nommée "utilisateurs"
 	
-Ajouter le cookie :
----
+## Ajouter le cookie :
+
 
 	- application/controllers/debrideur.php		-> Remplacer les "******" par la valeur de votre cookie "user" premium. (3x)
 	
-Customiser le tout :
----
+## Customiser le tout :
+
 
 	- La page principale se trouve ici : /application/view/debrideur.php
 	
