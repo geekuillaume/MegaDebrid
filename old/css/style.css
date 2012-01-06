@@ -1,0 +1,142 @@
+body {
+	background: #232323 url(images/bg.png) repeat;
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header, nav, article, section, aside, footer, address {  
+   	display: block;  
+} 
+@font-face {
+   	font-family: 'LeagueGothicRegular';
+	src: url('fonts/League_Gothic-webfont.eot');
+   	src: url('fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/League_Gothic-webfont.woff') format('woff'),
+       url('fonts/League_Gothic-webfont.ttf') format('truetype'),
+       url('fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+   	font-weight: normal;
+   	font-style: normal;
+}
+h1 {
+	text-transform: uppercase;
+	color: #77dff1;
+	font-family: LeagueGothicRegular;
+	font-size: 80px;
+	font-weight: lighter;
+	text-shadow: 0px 2px 0px #000;
+	margin: 30px 0 0 0;
+}
+.hr {
+	display: block;
+	border: none;
+	width: 960px;
+	height: 2px;
+	background: url(images/divider.png);
+	margin: 10px 0;
+}
+.titre {
+     font-size: 50px;
+     text-align: center;
+     text-decoration: underline;
+     text-shadow: 4px 4px 4px grey;
+}
+/*#box {
+     border-radius: 5px 5px 5px 5px;
+     box-shadow: 1px 1px 5px 2px black;
+     color: white;
+     font-family: "Architects Daughter";
+     font-size: 19px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 100px;
+     padding: 10px;
+     text-align: center;
+     width: 960px;
+}*/
+#lien {
+     background: none repeat scroll 0% 0% white;
+     border-radius: 3px 3px 3px 3px;
+     border: 1px solid #AAAAAA;
+     box-shadow: 0pt 0pt 3px #AAAAAA;
+     height: 200px;
+     padding: 5px;
+     width: 600px;
+}
+#lien:focus {
+     border-color: #093C75;
+     box-shadow: 0pt 0pt 3px #0459B7;
+     outline: medium none;
+}
+.boutton {
+     background: -moz-linear-gradient(center top , #555555, #2C2C2C) repeat scroll 0pt 0pt transparent;
+     background: -webkit-linear-gradient(-90deg , #555555, #2C2C2C) repeat scroll 0pt 0pt transparent;
+     border-radius: 8px 8px 8px 8px;
+     box-shadow: 0pt 0pt 5px rgba(0, 0, 0, 0.5), 0pt -1px 0pt rgba(255, 255, 255, 0.4);
+     color: #000000;
+     font-size: 30px;
+     height: 43px;
+     line-height: 43px;
+     margin-top: 30px;
+     padding: 5px;
+     text-align: center;
+     text-shadow: 0pt 1px 0pt rgba(255, 255, 255, 0.2);
+     width: 200px;
+}
+.boutton:hover {
+     background: -moz-linear-gradient(center top , #777777, #333333) repeat scroll 0pt 0pt transparent;
+     background: -webkit-linear-gradient(-90deg , #777777, #333333) repeat scroll 0pt 0pt transparent;
+     color: #222222;
+     cursor: pointer;
+}
+.boutton:active {
+     background: -moz-linear-gradient(center top , #555555, #2C2C2C) repeat scroll 0pt 0pt transparent;
+     background: -webkit-linear-gradient(-90deg , #555555, #2C2C2C) repeat scroll 0pt 0pt transparent;
+     box-shadow: 1px 1px 10px black inset, 0pt 1px 0pt rgba(255, 255, 255, 0.4);
+     color: #000000;
+}
+a {
+     color: white;
+     font-size: 25px;
+}
+.erreur {
+     color: red;
+     font-size: 25px;
+}
+.conteneur_lien {
+     background: -moz-linear-gradient(90deg, #FFBD45, #FF8F30) repeat scroll 0pt 0pt transparent;
+     background: -webkit-linear-gradient(-90deg, #FFBD45, #FF8F30) repeat scroll 0pt 0pt transparent;
+     border-radius: 3px 3px 3px 3px;
+     box-shadow: 1px 1px 5px 2px black;
+     line-height: 50px;
+     margin-bottom: 20px;
+     height: 50px;
+}
+#listelien {
+     height: 200px;
+     width: 950px;
+}
+.playvideo {
+     background-image: -moz-linear-gradient(center bottom , #DC0433 47%, #FF1E4D 74%);
+     background-image: -webkit-linear-gradient(-90deg , #DC0433 47%, #FF1E4D 74%);
+     border-radius: 8px 8px 8px 8px;
+     float: right;
+     height: 34px;
+     line-height: 34px;
+     margin: 5px;
+     padding: 3px;
+     width: 60px;
+     box-shadow: 0pt 0pt 5px rgba(0, 0, 0, 0.5), 0pt -1px 0pt rgba(255, 255, 255, 0.4);
+}
+.playvideo:active {
+     box-shadow: 1px 1px 10px black inset, 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+#player {
+	width: 900px;
+	height: 400px;
+}
+.video_conteneur {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}

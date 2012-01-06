@@ -1,0 +1,14 @@
+@charset "utf-8";
+#lien {
+	background: white;
+    border: 1px solid #AAAAAA;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 3px #AAAAAA;
+    padding: 5px;
+    width: 600px;
+}
+h2 {
+	font-family:"Bangers";
+	font-size:40px;
+	text-shadow: grey 4px 4px 4px;
+}

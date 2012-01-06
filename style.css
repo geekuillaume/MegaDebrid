@@ -1,0 +1,257 @@
+body {
+	background: #232323 url(img/bg.png) repeat;
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header, nav, article, section, aside, footer, address {  
+   	display: block;  
+} 
+@font-face {
+   	font-family: 'LeagueGothicRegular';
+	src: url('fonts/League_Gothic-webfont.eot');
+   	src: url('fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/League_Gothic-webfont.woff') format('woff'),
+       url('fonts/League_Gothic-webfont.ttf') format('truetype'),
+       url('fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+   	font-weight: normal;
+   	font-style: normal;
+}
+.wrapper {
+	width: 960px;
+	min-height: 720px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+}
+h1 {
+	text-transform: uppercase;
+	font-family: LeagueGothicRegular;
+	font-size: 80px;
+	font-weight: lighter;
+	margin: 40px 0 0 0;
+	margin-bottom: 20px;
+	text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+	color:white;
+}
+h2 {
+	text-transform: uppercase;
+	font-family: LeagueGothicRegular;
+	font-size: 50px;
+	font-weight: lighter;
+	text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+	margin: 30px 0 0 0;
+	margin-bottom: 20px;
+	color:white;
+}
+.hr {
+	display: block;
+	border: none;
+	width: 960px;
+	height: 1px;
+	margin: 10px 0;
+	background-color:rgba(0,0,0,0.5);
+}
+.titre {
+     font-size: 50px;
+     text-align: center;
+     text-decoration: underline;
+     text-shadow: 4px 4px 4px grey;
+}
+p {
+	margin: 0;
+	font-size: 16px;
+}
+#lien {
+     background: none repeat scroll 0% 0% white;
+     border-radius: 3px 3px 3px 3px;
+     border: 1px solid #AAAAAA;
+     box-shadow: 0pt 0pt 3px #AAAAAA;
+     height: 200px;
+     padding: 5px;
+     width: 600px;
+     margin-top: 20px;
+}
+#lien:focus {
+     border-color: #093C75;
+     box-shadow: 0pt 0pt 3px #0459B7;
+     outline: medium none;
+}
+.boutton {
+     background: -moz-linear-gradient(center top , #555555, #2C2C2C) repeat scroll 0pt 0pt transparent;
+     background: -webkit-linear-gradient(-90deg , #555555, #2C2C2C) repeat scroll 0pt 0pt transparent;
+     border-radius: 8px 8px 8px 8px;
+     box-shadow: 0pt 0pt 5px rgba(0, 0, 0, 0.5), 0pt -1px 0pt rgba(255, 255, 255, 0.4);
+     color: #000000;
+     font-size: 30px;
+     height: 43px;
+     line-height: 43px;
+     margin-top: 30px;
+     padding: 5px;
+     text-align: center;
+     text-shadow: 0pt 1px 0pt rgba(255, 255, 255, 0.2);
+     width: 200px;
+}
+.boutton:hover {
+     background: -moz-linear-gradient(center top , #777777, #333333) repeat scroll 0pt 0pt transparent;
+     background: -webkit-linear-gradient(-90deg , #777777, #333333) repeat scroll 0pt 0pt transparent;
+     color: #222222;
+     cursor: pointer;
+}
+.boutton:active {
+     background: -moz-linear-gradient(center top , #555555, #2C2C2C) repeat scroll 0pt 0pt transparent;
+     background: -webkit-linear-gradient(-90deg , #555555, #2C2C2C) repeat scroll 0pt 0pt transparent;
+     box-shadow: 1px 1px 10px black inset, 0pt 1px 0pt rgba(255, 255, 255, 0.4);
+     color: #000000;
+}
+a {
+     color: white;
+     font-size: 25px;
+}
+.erreur {
+     color: red;
+     font-size: 25px;
+}
+.conteneur_lien {
+     background: -moz-linear-gradient(90deg, #FFBD45, #FF8F30) repeat scroll 0pt 0pt transparent;
+     background: -webkit-linear-gradient(-90deg, #FFBD45, #FF8F30) repeat scroll 0pt 0pt transparent;
+     border-radius: 3px 3px 3px 3px;
+     box-shadow: 1px 1px 5px 2px black;
+     line-height: 50px;
+     margin-bottom: 20px;
+     height: 50px;
+}
+#listelien {
+     height: 200px;
+     width: 950px;
+}
+.playvideo {
+     background-image: -moz-linear-gradient(center bottom , #DC0433 47%, #FF1E4D 74%);
+     background-image: -webkit-linear-gradient(-90deg , #DC0433 47%, #FF1E4D 74%);
+     border-radius: 8px 8px 8px 8px;
+     float: right;
+     height: 34px;
+     line-height: 34px;
+     margin: 5px;
+     padding: 3px;
+     width: 60px;
+     box-shadow: 0pt 0pt 5px rgba(0, 0, 0, 0.5), 0pt -1px 0pt rgba(255, 255, 255, 0.4);
+}
+.playvideo:active {
+     box-shadow: 1px 1px 10px black inset, 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+#player {
+	width: 900px;
+	height: 400px;
+}
+.video_conteneur {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+textarea {
+	margin-bottom: 25px;
+}
+.compteur {
+     font-family: LeagueGothicRegular;
+     font-size: 48px;
+     font-weight: lighter;
+     margin: 0px 0pt 20px;
+     text-shadow: 0px 2px 0px #000000;
+     margin-top: 35px;
+}
+.last {
+	margin-bottom: 50px;
+}
+/* This is the selector of the seventh box, here's where we establish the measures, background colors, borders and shadows */
+.box7{
+    margin-top: 50px;
+    width: 960px;
+    min-height: 150px;
+    padding: 0 0 1px 0;
+    position:relative;
+    background: #fff;
+    background: -webkit-gradient(linear, 0% 20%, 0% 92%, from(#fff), to(#f3f3f3), color-stop(.1,#fff));
+    background: -moz-linear-gradient(0 0 270deg, #fff, #fff 10%, #f3f3f3);
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+}
+ 
+/* This is the top left tape */
+.box7:before{
+    content: '';
+    position:absolute;
+    width: 130px;
+    height: 30px;
+    border-left: 1px dashed rgba(0, 0, 0, 0.1);
+    border-right: 1px dashed rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1);
+    background: -webkit-gradient(linear, 555% 20%, 0% 92%, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.0)), color-stop(.1,rgba(0, 0, 0, 0.2)));
+    background: -moz-linear-gradient(555% 0 180deg, rgba(0,0,0,0.1), rgba(0,0,0,0.2) 10%, rgba(0,0,0,0.0));
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    -webkit-transform:translate(-50px,10px)
+                        skew(10deg,10deg)
+                        rotate(-50deg);
+    -moz-transform:translate(-50px,10px)
+                        skew(10deg,10deg)
+                        rotate(-50deg);
+        -o-transform:translate(-50px,10px)
+                        skew(10deg,10deg)
+                        rotate(-50deg);
+        transform:translate(-50px,10px)
+                        skew(10deg,10deg)
+                        rotate(-50deg);
+}
+ 
+/* This is the top bottom right tape */
+.box7:after{
+    content: '';
+    position:absolute;
+    right:0;
+    bottom:0;
+    width: 130px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.1);
+    background: -webkit-gradient(linear, 555% 20%, 0% 92%, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.0)), color-stop(.1,rgba(0, 0, 0, 0.2)));
+    background: -moz-linear-gradient(555% 0 180deg, rgba(0,0,0,0.1), rgba(0,0,0,0.2) 10%, rgba(0,0,0,0.0));
+    border-left: 1px dashed rgba(0, 0, 0, 0.1);
+    border-right: 1px dashed rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translate(50px,-20px)
+                        skew(10deg,10deg)
+                        rotate(-50deg);
+    -moz-transform: translate(50px,-20px)
+                        skew(10deg,10deg)
+                        rotate(-50deg);
+    -o-transform: translate(50px,-20px)
+                        skew(10deg,10deg)
+                        rotate(-50deg);
+    transform: translate(50px,-20px)
+                        skew(10deg,10deg)
+                        rotate(-50deg)
+}
+.nom {
+	font-size: 25px;
+	text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+	color:white;
+	margin-top: 25px;
+	margin-bottom:25px;
+}
+.taille {
+	margin-bottom: 20px;
+}
+.download {
+	margin-bottom: 25px;
+}
+.retour {
+	margin-top:10px;
+}
