@@ -23,9 +23,12 @@ De plus un lecteur DivX est integré pour voir les vidéos en streaming.
 	
 ## Customiser le tout :
 
-
 	- La page principale se trouve ici : /application/view/debrideur.php
 	
+### Disclaimer
+
+Ce code est fourni dans un but éducationnel et je ne pourrais être tenu responsable de toute utilisation illégale de cette application.
+
 ### Crédits
 
 Créateur : [Geekuillaume] (geekuillau.me)
