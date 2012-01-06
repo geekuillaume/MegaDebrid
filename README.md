@@ -8,8 +8,6 @@ Pour la faire fonctionner il faut un compte premium et une base de donnée SQL.
 Elle génère uniquement des liens premium et les envoie à l'utilisateur.
 De plus un lecteur DivX est integré pour voir les vidéos en streaming. 
 
-### Pour commencer :
-
 ## Définir les variables système :
 
 
