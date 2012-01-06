@@ -14,10 +14,8 @@ De plus un lecteur DivX est integré pour voir les vidéos en streaming.
 
 ## Créer la base de données :
 
-	
-	- Créer une base de données nommée "liens"
-	- Créer une base de données nommée "utilisateurs"
-	
+	-Créer les deux bases de données à partir du fichier tables.sql
+		
 ## Ajouter le cookie :
 
 
