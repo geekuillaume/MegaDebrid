@@ -1,7 +1,5 @@
-MegaDebrid est une application basée sur le framework PHP CodeIgniter.
+MegaDebrid
 ===
-
-### Intro :
 
 Cette appli pour CodeIgniter est un débrideur pour Megaupload et Megavideo avec un design soigné et une bonne réactivité.
 Pour la faire fonctionner il faut un compte premium et une base de donnée SQL.
